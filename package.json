@@ -11,5 +11,11 @@
   },
   "dependencies": {
     "astro": "^5.2.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
   }
 }
